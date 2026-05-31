@@ -8,72 +8,49 @@ A proposta deve apresentar uma ideia simples, clara e viável para ser desenvolv
 
 Escreva aqui o nome provisório do jogo.
 
-Exemplo:
 
-> Corrida dos Obstáculos
+
+> Corrida do Dinossauro
 
 ## 2. Integrantes do grupo
 
 Liste os integrantes do grupo.
 
-- Nome 1:
-- Nome 2:
-- Nome 3:
-- Nome 4:
+- Nome 1:Guilherme Mello
+- Nome 2:Lian
+- Nome 3:Pietro lage
+- Nome 4:Luiz pegnolate 
 
 ## 3. Tipo de jogo
 
 Indique o tipo de jogo que será desenvolvido.
 
-Exemplos:
 
-- jogo de desviar de obstáculos;
-- jogo de coleta de itens;
-- labirinto simples;
-- jogo de perguntas e respostas;
-- jogo de memória;
-- Pong;
-- Snake;
-- Breakout;
-- nave desviando de meteoros;
-- corrida simples com obstáculos;
-- jogo de clique rápido;
-- jogo de sobrevivência simples.
+
 
 Tipo escolhido pelo grupo:
 
-> Escreva aqui.
+jogo de desviar de obstáculos
 
 ## 4. Descrição geral do jogo
 
-Explique, em poucas linhas, como o jogo funcionará.
 
-Procure responder:
-
-- O que aparece na tela?
-- O que o jogador controla?
-- O que o jogador precisa fazer?
-- Quais desafios aparecem durante a partida?
 
 Descrição:
+O jogo consiste em uma corrida de sobrevivência (Endless Runner) onde o cenário se move continuamente na tela, acompanhado de um placar de pontos. O jogador controla um personagem (ou veículo) podendo se movimentar horizontalmente para a esquerda e para a direita. O objetivo principal é desviar dos diversos obstáculos que vêm em sua direção, sobrevivendo o maior tempo possível para acumular a maior pontuação. Os principais desafios durante a partida incluem o surgimento de barreiras em posições aleatórias, afunilamentos no mapa e o aumento progressivo da velocidade do jogo, exigindo reflexos cada vez mais rápidos
 
 > Escreva aqui.
+O jogo consiste em uma corrida de sobrevivência (Endless Runner) onde o cenário se move continuamente na tela, acompanhado de um placar de pontos. O jogador controla um personagem (ou veículo) podendo se movimentar horizontalmente para a esquerda e para a direita. O objetivo principal é desviar dos diversos obstáculos que vêm em sua direção, sobrevivendo o maior tempo possível para acumular a maior pontuação. Os principais desafios durante a partida incluem o surgimento de barreiras em posições aleatórias, afunilamentos no mapa e o aumento progressivo da velocidade do jogo, exigindo reflexos cada vez mais rápidos
+
 
 ## 5. Objetivo do jogador
 
 Explique qual é o objetivo principal do jogador.
 
-Exemplos:
 
-- coletar o maior número possível de itens;
-- sobreviver pelo maior tempo possível;
-- chegar até o final do labirinto;
-- acertar alvos;
-- responder perguntas corretamente;
-- evitar obstáculos;
-- quebrar todos os blocos.
 
-Objetivo:
+O objetivo principal do jogador é evitar todos os obstáculos que surgem na tela e sobreviver pelo maior tempo possível, buscando alcançar a maior pontuação (high score) antes de inevitavelmente colidir com alguma barreira.
+
 
 > Escreva aqui.
 
@@ -81,53 +58,20 @@ Objetivo:
 
 Liste as principais regras do jogo.
 
-Exemplo:
+Regra 1: O personagem movimenta-se apenas no eixo horizontal (esquerda e direita), não podendo ultrapassar os limites laterais da tela.
+ Regra 2: A pontuação do jogador aumenta de forma automática e contínua conforme o tempo em que ele permanece vivo na partida.
+ Regra 3: A velocidade de descida dos obstáculos (ou do cenário) aumenta progressivamente ao longo do tempo, elevando a dificuldade.
+ Regra 4: O jogador inicia a partida com 3 vidas e perde 1 vida cada vez que colide com algum obstáculo.
+ Regra 5: A partida é encerrada ("Game Over") assim que as vidas chegarem a zero, momento em que o placar final é exibido e salvo caso seja um novo recorde.
 
-- O jogador começa com 3 vidas.
-- Cada moeda coletada vale 10 pontos.
-- Cada colisão com obstáculo remove 1 vida.
-- A partida termina quando as vidas chegam a zero.
-- O jogador vence se alcançar 100 pontos.
 
-Regras do grupo:
+Por se tratar de um jogo de sobrevivência contínua (endless runner), não há um final de fase tradicional. A condição de "vitória" (ou de sucesso na partida) consiste em sobreviver o tempo suficiente para ultrapassar a pontuação máxima anterior, batendo o recorde (High Score) salvo no sistema.
 
-- Regra 1:
-- Regra 2:
-- Regra 3:
-- Regra 4:
-- Regra 5:
-
-## 7. Condição de vitória
-
-Explique como o jogador vence ou conclui o jogo.
-
-Exemplos:
-
-- atingir determinada pontuação;
-- chegar ao final da fase;
-- sobreviver até o tempo acabar;
-- responder uma quantidade mínima de perguntas;
-- quebrar todos os blocos.
-
-Condição de vitória:
-
-> Escreva aqui.
 
 ## 8. Condição de derrota ou encerramento
 
-Explique como o jogador perde ou quando a partida termina.
+A derrota ocorre quando o jogador colide com os obstáculos repetidas vezes e perde todas as suas 3 vidas. O encerramento da partida acontece imediatamente no momento em que as vidas chegam a zero (Game Over), ou caso o jogador opte por abandonar a partida através de um menu de pausa.
 
-Exemplos:
-
-- perder todas as vidas;
-- acabar o tempo;
-- colidir com determinado obstáculo;
-- errar muitas perguntas;
-- deixar a bola cair, no caso de Breakout ou Pong.
-
-Condição de derrota ou encerramento:
-
-> Escreva aqui.
 
 ## 9. Elementos previstos no jogo
 
@@ -145,13 +89,15 @@ Descrição:
 
 ## Obstáculos, inimigos ou desafios
 
+Exemplo:## Obstáculos, inimigos ou perigos
+
 Exemplo:
 
 > Obstáculos aparecem em posições aleatórias e devem ser evitados.
 
 Descrição:
 
-> Escreva aqui.
+> Blocos e barreiras surgem no topo da tela e se movem em direção ao jogador. A frequência de surgimento e a velocidade de movimento desses obstáculos aumentam gradativamente conforme a partida avança.
 
 ## Itens, alvos ou objetos de interação
 
@@ -161,7 +107,7 @@ Exemplo:
 
 Descrição:
 
-> Escreva aqui.
+> Ocasionalmente, itens especiais (como vidas extras ou itens que concedem invencibilidade temporária) aparecerão na tela misturados aos obstáculos, exigindo que o jogador arrisque sua posição para coletá-los.
 
 ## Pontuação, vidas, tempo ou progresso
 
@@ -171,116 +117,51 @@ Exemplo:
 
 Descrição:
 
-> Escreva aqui.
+> O jogador começa a partida com 3 vidas. A pontuação é baseada no tempo de sobrevivência, aumentando continuamente a cada segundo que o jogador permanece vivo. Cada colisão com um obstáculo subtrai 1 vida.
 
 ## 10. Controles previstos
 
-Informe os comandos que serão utilizados pelo jogador.
-
-Exemplo:
-
-- Seta para cima: mover para cima
-- Seta para baixo: mover para baixo
-- Seta para esquerda: mover para esquerda
-- Seta para direita: mover para direita
-- Espaço: realizar ação
-- ESC: sair do jogo
-
 Controles do grupo:
 
-- Tecla/comando:
-- Tecla/comando:
-- Tecla/comando:
+- A / Seta para a esquerda: mover o personagem para a esquerda.
+- D / Seta para a direita: mover o personagem para a direita.
+- ESC: pausar a partida ou sair do jogo.
+- Enter: confirmar opções nos menus (Iniciar, Reiniciar).
 
 ## 11. Organização inicial do código
 
-Explique como o grupo pretende organizar o código.
-
-Exemplo:
-
-- `main.py`: inicia o jogo;
-- `src/jogo.py`: contém o loop principal;
-- `src/config.py`: guarda configurações como tamanho da tela e cores;
-- `src/funcoes.py`: contém funções auxiliares;
-- `src/dados.py`: contém funções de leitura e escrita de arquivos.
-
 Organização planejada:
 
-> Escreva aqui.
-
+- `main`: arquivo principal responsável por inicializar a janela e chamar o menu do jogo.
+- `src/jogo`: contém o loop principal (*Game Loop*), controlando a atualização de quadros e a renderização geral.
+- `src/entidades`: concentra as regras de movimentação, atributos do jogador e a lógica de geração (spawn) dos obstáculos.
+- `src/colisoes`: funções dedicadas a verificar a intersecção geométrica (*hitboxes*) entre o jogador e as barreiras.
+- `src/dados`: gerencia a leitura e escrita de arquivos para salvar os recordes (High Score).
 
 ## 12. Recursos externos previstos
 
-Informe se o grupo pretende utilizar imagens, sons, fontes, tutoriais ou códigos externos.
-
-Exemplo:
-
-- imagens obtidas de banco gratuito;
-- sons gratuitos;
-- tutorial usado apenas como referência;
-- fonte personalizada.
-
 Recursos previstos:
 
-> Escreva aqui.
-
-Caso não pretenda utilizar recursos externos, escreva:
-
-> Não pretendemos utilizar recursos externos.
+> Pretendemos utilizar tutoriais e documentações de bibliotecas gráficas apenas como base de referência para a estruturação visual. Imagens simples (*sprites*) e fontes serão obtidas de bancos de recursos gratuitos (assets *royalty-free*).
 
 ## 13. Principais dificuldades esperadas
 
-Liste as dificuldades que o grupo acredita que poderá enfrentar.
-
-Exemplos:
-
-- movimentação do jogador;
-- colisão entre objetos;
-- controle de tempo;
-- criação do ranking;
-- organização do código;
-- uso do GitHub;
-- testes;
-- exibição de textos na tela.
-
 Dificuldades previstas:
 
-- Dificuldade 1:
-- Dificuldade 2:
-- Dificuldade 3:
+- Dificuldade 1: Implementar a detecção de colisões precisa para que o jogador não perca vidas de forma injusta.
+- Dificuldade 2: Balancear o aumento gradual de velocidade e frequência dos obstáculos para que o jogo não fique impossível rápido demais.
+- Dificuldade 3: Gerenciar a memória e o desempenho ao criar e destruir continuamente os objetos (obstáculos) que entram e saem da tela.
 
 ## 14. Escopo mínimo para a entrega final
 
-Descreva qual será a versão mínima aceitável do jogo.
-
-Esta seção é importante para evitar que o grupo escolha uma ideia grande demais.
-
-Exemplo:
-
-> A versão mínima do jogo terá um personagem controlado pelo teclado, obstáculos aparecendo na tela, sistema de vidas, sistema de pontuação e tela de fim de jogo.
-
 Escopo mínimo:
 
-> Escreva aqui.
+> A versão mínima do jogo terá um loop funcional onde um personagem controlado pelas teclas laterais desvia de obstáculos gerados no topo da tela. Incluirá detecção de colisões que subtrai um sistema básico de 3 vidas, um contador de pontuação baseado no tempo e uma tela de Game Over quando as vidas chegarem a zero.
 
 ## 15. Possíveis melhorias, caso haja tempo
 
-Liste funcionalidades extras que o grupo poderá implementar se conseguir concluir o escopo mínimo.
-
-Exemplos:
-
-- tela inicial;
-- sons;
-- fases;
-- aumento de dificuldade;
-- ranking;
-- animações;
-- novos tipos de obstáculos;
-- diferentes personagens;
-- menu de pausa.
-
 Melhorias possíveis:
 
-- Melhoria 1:
-- Melhoria 2:
-- Melhoria 3:
+- Melhoria 1: Implementação de um ranking persistente (salvo em arquivo) que exibe as melhores pontuações no menu inicial.
+- Melhoria 2: Inclusão de *power-ups* (como escudos e câmera lenta) e diferentes temas visuais para o cenário.
+- Melhoria 3: Adição de efeitos sonoros básicos para pulo/movimento, coleta de itens, colisão e uma trilha sonora de fundo.
